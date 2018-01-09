@@ -1,0 +1,37 @@
+<div class="spacer"></div>
+<div class="container mainContainer">
+    <form class="testFrom" name="testForm" novalidate>
+        <h1 class="nukeIt2 centerFont">Registration</h1>
+        <h2 class="showMobiles centerFont">Registration</h2>
+        <h3 class="showMobile centerFont">Registration</h3>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" name="username" ng-model="username" id="username"
+                    placeholder="Username" onblur="placeholder='Awesome!!!'" onfocus="placeholder=''" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" ng-model="password"
+                   placeholder="Password" onblur="placeholder='Password!!!'" onfocus="placeholder=''" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email"
+                   name="email" ng-model="email" placeholder="Email" required>
+            <p class="help-block" ng-if="testForm.email.$invalid && testForm.email.$dirty" style="color: red">Not A Valid Email.</p>
+        </div>
+        <div class="form-group nukeIt">
+            <label class="nukeIt" for="input">File input</label>
+            <input class="nukeIt" type="file" id="input" accept="image/*">
+            <p class="help-block disabled">Click the button above to upload files.</p>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary spBtnWidth" title="Submit">
+                Submit
+                <i class="fa fa-send"></i>
+            </button>
+        </div>
+    </form>
+    <br>
+</div>
+<div class="spacer"></div>
