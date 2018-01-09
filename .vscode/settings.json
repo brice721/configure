@@ -1,0 +1,5 @@
+{
+  "git.ignoreLimitWarning": true,
+  "sonarqube-inject.enableLinter": false,
+  "git.path": "/Users/brandon/VSTS/.git/"
+}
