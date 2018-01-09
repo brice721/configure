@@ -1,5 +1,6 @@
 {
   "git.ignoreLimitWarning": true,
   "sonarqube-inject.enableLinter": false,
-  "git.path": "/Users/brandon/VSTS/.git/"
+  "git.path": "/Users/brandon/VSTS/.git/",
+  "github.remoteName": "git@github.com:brice721/configure.git"
 }
